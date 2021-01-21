@@ -18,10 +18,7 @@
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
     <!-- Animate css -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link rel="stylesheet" href="./animate.css" />
 
     <link rel="stylesheet" href="./index.css" />
   </head>
@@ -31,7 +28,7 @@
       <!-- Número telfónico -->
 
       <div class="bg-primary">
-        <div class="d-flex container animate__animated animate__fadeInLeft">
+        <div class="d-flex container wow animate__animated animate__fadeInLeft">
           <img
             class="phone"
             src="./assets/íconos SVG/phone.svg"
@@ -51,7 +48,7 @@
             >
 
             <img
-              class="logo animate__animated animate__fadeInLeft"
+              class="logo wow animate__animated animate__fadeInLeft"
               src="./assets//Generales//micasa-identidad.svg"
               alt="logo"
             />
@@ -78,7 +75,7 @@
             id="myNavbar"
           >
             <ul
-              class="navbar-nav ml-auto flex-nowrap poppins fs-19 text-primary color-secondary animate__animated animate__fadeInRight"
+              class="navbar-nav ml-auto flex-nowrap poppins fs-19 text-primary color-secondary wow animate__animated animate__fadeInRight"
             >
               <li class="nav-item">
                 <a href="./index.html" class="nav-link m-2 menu-item">INICIO</a>
@@ -132,7 +129,7 @@
     <!-- About banner -->
     <div class="about d-flex align-items-center justify-content-center">
       <p
-        class="fs-52 text-white text-shadow mt-5 animate__animated animate__bounceInDown"
+        class="fs-52 text-white text-shadow mt-5 wow animate__animated animate__bounceInDown"
       >
         <br />
         ABOUT US
@@ -141,10 +138,10 @@
 
     <!-- Nuestra historia -->
     <div class="container poppins text-center mt-5 mb-5">
-      <p class="fs-25 color-titulo animate__animated animate__fadeInDown">
+      <p class="fs-25 color-titulo wow animate__animated animate__fadeInDown">
         NUESTRA HISTORIA
       </p>
-      <p class="fs-18 color-texto animate__animated animate__fadeInLeft">
+      <p class="fs-18 color-texto wow animate__animated animate__fadeInLeft">
         Inspirado por compartir la cultura mexicana y sus lugares mágicos,
         <span class="color-titulo">Mi casa es tu casa </span> fue fundada con el
         objetivo de hacer sentir como en casa a todos sus huéspedes, de hacerlos
@@ -155,7 +152,7 @@
         partes del mundo.
       </p>
 
-      <p class="fs-18 color-texto animate__animated animate__fadeInRight">
+      <p class="fs-18 color-texto wow animate__animated animate__fadeInRight">
         En el 2015 con una sola unidad inicia operaciones en la ciudad de Playa
         del Carmen. En la actualidad
         <span class="color-titulo">Mi casa es tu casa </span> administra,
@@ -169,12 +166,14 @@
       <div class="row">
         <div class="col-md-6 mt-5 d-flex justify-content-center">
           <img
-            class="equipo-img claseefecto"
+            class="equipo-img claseefecto wow animate__animated animate__fadeInLeft"
             src="./assets/About/intro-foto-aboutus.jpg"
             alt="about-us"
           />
         </div>
-        <div class="col-md-6 poppins text-center mt-5">
+        <div
+          class="col-md-6 poppins text-center mt-5 wow animate__animated animate__fadeInRight"
+        >
           <p class="fs-25 color-titulo">NUESTRO EQUIPO</p>
           <p class="fs-18 color-texto">
             Contamos con un alto sentido de hospitalidad, además de experiencia
@@ -258,7 +257,9 @@
             />
           </g>
         </svg>
-        <p class="fs-30 text-white text-shadow">
+        <p
+          class="fs-30 text-white text-shadow wow animate__animated animate__fadeInRight"
+        >
           HEMOS RECIBIDO A GENTE DE TODO EL MUNDO <br />
           Y ESPERAMOS QUE SEAS EL PRÓXIMO, ¡BIENVENIDO!
         </p>
@@ -269,8 +270,12 @@
 
     <div class="staff container mt-5">
       <div class="text-center poppins">
-        <p class="fs-29 color-titulo">NUESTRO INCREÍBLE STAFF</p>
-        <p class="fs-18 color-texto">
+        <p
+          class="fs-29 color-titulo wow animate__animated animate__slideInDown"
+        >
+          NUESTRO INCREÍBLE STAFF
+        </p>
+        <p class="fs-18 color-texto wow animate__slideInUp animate__animated">
           Mi Casa es tu Casa está formada por una gran familia, te invitamos a
           conocerlos
         </p>
@@ -278,9 +283,9 @@
       <div>
         <div class="row">
           <div class="col-md-3 d-flex justify-content-center mt-5">
-            <div id="renata" class="swiper-container pointer">
+            <div id="renata" class="pointer">
               <img
-                class="staff-img"
+                class="staff-img wow animate__animated animate__slideInLeft"
                 src="./assets/About/renata.jpg"
                 alt="renata"
               />
@@ -291,7 +296,7 @@
             class="col-md-3 d-flex justify-content-center mt-5 pointer"
           >
             <img
-              class="staff-img"
+              class="staff-img wow animate__animated animate__slideInDown"
               src="./assets/About/erving.jpg"
               alt="erving"
             />
@@ -301,7 +306,7 @@
             class="col-md-3 d-flex justify-content-center mt-5 pointer"
           >
             <img
-              class="staff-img"
+              class="staff-img wow animate__animated animate__slideInUp"
               src="./assets/About/daniel.jpg"
               alt="daniel"
             />
@@ -310,14 +315,20 @@
             id="staff"
             class="col-md-3 d-flex justify-content-center mt-5 pointer"
           >
-            <img class="staff-img" src="./assets/About/foto-4.jpg" alt="a" />
+            <img
+              class="staff-img wow animate__animated animate__slideInRight"
+              src="./assets/About/foto-4.jpg"
+              alt="a"
+            />
           </div>
         </div>
       </div>
     </div>
 
     <!-- Fundador -->
-    <div class="fundador poppins text-center mt-5">
+    <div
+      class="fundador poppins text-center mt-5 wow animate__animated animate__fadeInLeft"
+    >
       <div id="about-staff" class="container d-flex justify-content-center">
         <div class="container p-5 bg-fundador">
           <p class="fs-23">
@@ -341,13 +352,15 @@
       <div class="row">
         <div class="col-md-6">
           <img
-            class="contacto-img"
+            class="contacto-img wow animate__animated animate__fadeInLeft"
             src="./assets/Generales/imagen-formulario-2.png"
             alt="Contacto"
           />
         </div>
 
-        <div class="col-md-6 poppins">
+        <div
+          class="col-md-6 poppins wow animate__animated animate__fadeInRight"
+        >
           <p class="fs-33 text-center color-titulo">CONTACTO</p>
           <p class="fs-16 color-texto text-center">
             5 años de experiencia nos respaldan. Déjanos saber tus dudas o
@@ -482,5 +495,9 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./swiper.js"></script>
     <script src="./index.js"></script>
+    <script src="./wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

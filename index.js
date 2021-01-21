@@ -6,7 +6,7 @@ const aboutStaff = document.querySelector('#about-staff');
 
 renata.addEventListener('click', () => {
   aboutStaff.innerHTML = `
-  <div class="container p-5 bg-fundador animate__animated animate__fadeInLeft">
+  <div class="container p-5 bg-fundador  animate__animated animate__pulse">
     <p class="fs-23">
       REANATA SALAZAR <br />
       HOST
@@ -23,7 +23,7 @@ renata.addEventListener('click', () => {
 
 erving.addEventListener('click', () => {
   aboutStaff.innerHTML = `
-  <div class="container p-5 bg-fundador  animate__animated animate__fadeInLeft">
+  <div class="container p-5 bg-fundador  animate__animated animate__pulse">
     <p class="fs-23">
     ERVING CASTILLO <br />
     HOST
@@ -40,7 +40,7 @@ erving.addEventListener('click', () => {
 
 daniel.addEventListener('click', () => {
   aboutStaff.innerHTML = `
-  <div class="container p-5 bg-fundador  animate__animated animate__fadeInRight">
+  <div class="container p-5 bg-fundador  animate__animated animate__pulse">
   <p class="fs-23">
   DANIEL GARCÍA <br />
   FUNDADOR MI CASA ES TU CASA
@@ -54,7 +54,7 @@ daniel.addEventListener('click', () => {
 
 staff.addEventListener('click', () => {
   aboutStaff.innerHTML = `
-  <div class="container p-5 bg-fundador  animate__animated animate__fadeInRight">
+  <div class="container p-5 bg-fundador  animate__animated animate__pulse">
   <p class="fs-23">
   HUBERTO GUERRA <br />
   HOST
