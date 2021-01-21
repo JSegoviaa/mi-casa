@@ -111,6 +111,11 @@ body {
 
 .pointer {
   cursor: pointer;
+  transition: 0.5s;
+}
+.pointer:hover {
+  transform: scale(1.075);
+  transition: 0.5s;
 }
 
 a {
@@ -490,4 +495,15 @@ a:hover {
   .review {
     width: 100%;
   }
+}
+
+/*SWIPER*/
+
+.swiper-button-prev {
+  color: #636363;
+  background-color: white;
+}
+.swiper-button-next {
+  color: #636363;
+  background-color: white;
 }
