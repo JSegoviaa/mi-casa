@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./animate.css" />
   </head>
   <body>
     <!-- Header -->
@@ -18,7 +19,7 @@
       <!-- Número telfónico -->
 
       <div class="bg-primary">
-        <div class="d-flex container">
+        <div class="d-flex container wow animate__animated animate__fadeInLeft">
           <img
             class="phone"
             src="./assets/íconos SVG/phone.svg"
@@ -38,8 +39,8 @@
             >
 
             <img
-              class="logo"
-              src="./assets//Generales//micasa-identidad.svg"
+              class="logo wow animate__animated animate__fadeInLeft"
+              src="./assets/Generales//micasa-identidad.svg"
               alt="logo"
             />
 
@@ -65,7 +66,7 @@
             id="myNavbar"
           >
             <ul
-              class="navbar-nav ml-auto flex-nowrap poppins fs-19 text-primary color-secondary"
+              class="wow animate__animated animate__fadeInRight navbar-nav ml-auto flex-nowrap poppins fs-19 text-primary color-secondary"
             >
               <li class="nav-item">
                 <a href="./index.html" class="nav-link m-2 menu-item">INICIO</a>
@@ -76,7 +77,7 @@
                 </h4>
               </li>
               <li class="nav-item">
-                <a href="#locaciones" class="nav-link m-2 menu-item"
+                <a href="./index.html#locaciones" class="nav-link m-2 menu-item"
                   >LOCACIONES</a
                 >
               </li>
@@ -100,6 +101,7 @@
                   >SERVICIOS</a
                 >
               </li>
+
               <li class="nav-item">
                 <h4 href="#" class="nav-link m-2 menu-item color-primary none">
                   •
@@ -120,12 +122,16 @@
 
     <div class="banner d-flex align-items-center justify-content-center">
       <div class="mt-4">
-        <p class="poppins fs-30 text-white text-center mt-4 text-shadow">
+        <p
+          class="poppins fs-30 text-white text-center mt-4 text-shadow wow animate__animated animate__slideInLeft"
+        >
           MI CASA ES TU CASA, ES ESTAR ENTRE AMIGOS
         </p>
 
         <div class="d-flex justify-content-center">
-          <div class="border border-white bg-banner mt-4">
+          <div
+            class="border border-white bg-banner mt-4 wow animate__animated animate__slideInRight"
+          >
             <p class="text-white text-center poppins fs-16 mt-3">
               EXPLORA NUESTROS ALOJAMIENTOS
             </p>
@@ -138,7 +144,7 @@
     <div>
       <div class="d-flex justify-content-end overflow-hidden">
         <img
-          class="isotopo"
+          class="isotopo wow animate__animated animate__zoomIn"
           src="./assets/Generales/isotipo-micasa.svg"
           alt="welcome"
         />
@@ -147,14 +153,22 @@
         class="container d-flex justify-content-center text-center poppins bienvenida"
       >
         <div class="contenedor">
-          <p class="color-titulo fs-30">¡BIENVENIDO!</p>
-          <p class="color-texto mt-4 fs-22">
+          <p
+            class="color-titulo fs-30 wow animate__animated animate__slideInDown"
+          >
+            ¡BIENVENIDO!
+          </p>
+          <p
+            class="color-texto mt-4 fs-22 wow animate__animated animate__slideInLeft"
+          >
             Comenzamos el proyecto "Mi casa es tu casa" con la misión de hacer
             que todos se sientan como en casa cuando se hospeden en nuestras
             propiedades
           </p>
           <br />
-          <p class="color-texto fs-22">
+          <p
+            class="color-texto fs-22 wow animate__animated animate__slideInLeft"
+          >
             Nuestra filosofía es y siempre será tratar a todos como a nuestros
             amigos y familia
           </p>
@@ -164,10 +178,14 @@
 
     <!-- Locaciones -->
     <div id="locaciones" class="container text-center poppins mt-5 mb-5">
-      <p class="color-titulo fs-30">NUESTRAS LOCACIONES:</p>
+      <p class="color-titulo fs-30 wow animate__animated animate__slideInDown">
+        NUESTRAS LOCACIONES:
+      </p>
 
       <div class="row">
-        <div class="col-md-4 d-flex justify-content-center">
+        <div
+          class="col-md-4 d-flex justify-content-center wow animate__animated animate__slideInLeft"
+        >
           <div
             class="d-flex justify-content-center align-items-center locacion1 text-center mt-5"
           >
@@ -180,7 +198,9 @@
           </div>
         </div>
 
-        <div class="col-md-4 d-flex justify-content-center">
+        <div
+          class="col-md-4 d-flex justify-content-center wow animate__animated animate__slideInUp"
+        >
           <div
             class="d-flex justify-content-center align-items-center locacion2 text-center mt-5"
           >
@@ -193,7 +213,9 @@
           </div>
         </div>
 
-        <div class="col-md-4 d-flex justify-content-center">
+        <div
+          class="col-md-4 d-flex justify-content-center wow animate__animated animate__slideInRight"
+        >
           <div
             class="d-flex justify-content-center align-items-center locacion3 text-center mt-5"
           >
@@ -211,10 +233,14 @@
     <!-- Banner clima -->
     <div class="baner-clima poppins d-flex align-items-center">
       <div class="container">
-        <p class="fs-34 d-flex justify-content-end text-white text-shadow">
+        <p
+          class="fs-34 d-flex justify-content-end text-white text-shadow wow animate__animated animate__slideInDown"
+        >
           DISFRUTA EL CARIBE COMO LOCAL
         </p>
-        <p class="fs-18 d-flex justify-content-end text-white text-shadow">
+        <p
+          class="fs-18 d-flex justify-content-end text-white text-shadow wow animate__animated animate__slideInUp"
+        >
           Clima de verano todos los días del año
         </p>
       </div>
@@ -223,7 +249,7 @@
     <!-- Beneficios -->
     <div class="mt-5 mb-5 beneficios">
       <div class="container bg-primary">
-        <div class="py-5 mx-auto">
+        <div class="py-5 mx-auto wow animate__animated animate__slideInDown">
           <p class="fs-25 text-center text-white poppins">
             ALGUNOS DE LOS BENEFICIOS DE HOSPEDARTE CON NOSOTROS:
           </p>
@@ -235,7 +261,9 @@
         </div>
 
         <div class="container">
-          <div class="row text-white text-center poppins">
+          <div
+            class="row text-white text-center poppins wow animate__animated animate__slideInRight"
+          >
             <div class="col-md-3">
               <svg
                 class="m-4 beneficios-img"
@@ -524,7 +552,9 @@
               <p>AGUA CALIENTE</p>
             </div>
           </div>
-          <div class="row text-white text-center poppins mt-4 pb-5">
+          <div
+            class="row text-white text-center poppins mt-4 pb-5 wow animate__animated animate__slideInLeft"
+          >
             <div class="col-md-4">
               <svg
                 fill="rgb(255,255,255)"
@@ -722,7 +752,7 @@
     <!-- Casa santosha -->
     <div class="santosha d-flex align-items-center">
       <div
-        class="santosha-banner mx-auto d-flex align-items-center justify-content-center"
+        class="santosha-banner mx-auto d-flex align-items-center justify-content-center wow animate__animated animate__zoomIn"
       >
         <div class="text-center text-white poppins">
           <p class="fs-25">CASA SANTOSHA</p>
@@ -734,7 +764,7 @@
     <!-- Contacto -->
     <div class="container mt-5 mb-5">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 wow animate__animated animate__fadeInLeft">
           <img
             class="contacto-img"
             src="./assets/Generales/imagen-formulario-2.png"
@@ -742,7 +772,9 @@
           />
         </div>
 
-        <div class="col-md-6 poppins">
+        <div
+          class="col-md-6 poppins wow animate__animated animate__fadeInRight"
+        >
           <p class="fs-33 text-center color-titulo">CONTACTO</p>
           <p class="fs-16 color-texto text-center">
             5 años de experiencia nos respaldan. Déjanos saber tus dudas o
@@ -798,17 +830,19 @@
       <div class="bg-primary py-3">
         <div class="text-center">
           <img
-            class="footer-flor py-2"
+            class="footer-flor py-2 wow animate__animated animate__slideInDown"
             src="./assets/Generales/flor-micasa.svg"
             alt="flor"
           />
         </div>
-        <div class="row container text-white poppins text-center mx-auto">
+        <div
+          class="row container text-white poppins text-center mx-auto wow animate__animated animate__slideInLeft"
+        >
           <p class="col-md-2 fs-19">
             <a class="text-white" href="./index.html">INICIO </a>
           </p>
           <p class="col-md-2 fs-19">
-            <a class="text-white" href="#locaciones">LOCACIONES </a>
+            <a class="text-white" href="./index.html#locaciones">LOCACIONES </a>
           </p>
           <p class="col-md-2 fs-19">
             <a class="text-white" href="./about.html">ABOUT US</a>
@@ -823,7 +857,7 @@
             <a class="text-white" href="#">POLÍTICAS </a>
           </p>
         </div>
-        <div class="text-center">
+        <div class="text-center wow animate__animated animate__slideInUp">
           <img
             class="footer-redes"
             src="./assets/íconos SVG/facebook-logo-button.svg"
@@ -841,8 +875,10 @@
         <div
           class="container d-flex justify-content-between poppins text-white"
         >
-          <p class="py-2 mt-3">2020, MI CASA ES TU CASA, ALL RIGHT RESERVED.</p>
-          <div class="py-2 mt-3">
+          <p class="py-2 mt-3 wow animate__animated animate__slideInLeft">
+            2020, MI CASA ES TU CASA, ALL RIGHT RESERVED.
+          </p>
+          <div class="py-2 mt-3 wow animate__animated animate__slideInRight">
             <img
               class="footer-img"
               src="./assets/Generales/airbnb.png"
@@ -873,5 +909,9 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <script src="./wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
