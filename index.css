@@ -459,6 +459,11 @@ a:hover {
   background: url('./assets/MCETC-8041.jpg') center center/cover no-repeat;
   height: 600px;
 }
+.banner-isla-mujeres {
+  background: url('./assets/banner-isla-mujeres.jpg') center center/cover
+    no-repeat;
+  height: 600px;
+}
 
 .swiper-img {
   width: 100%;
