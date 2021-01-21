@@ -485,6 +485,10 @@ a:hover {
   height: 600px;
 }
 
+.casa-santosha-interior {
+  background: url('./assets/banner-isla-mujeres.jpg') center center/cover;
+  height: 600px;
+}
 .map {
   height: 500px;
 }
