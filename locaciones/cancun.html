@@ -17,6 +17,7 @@
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="../animate.css" />
   </head>
   <body>
     <!-- Header -->
@@ -24,7 +25,7 @@
       <!-- Número telfónico -->
 
       <div class="bg-primary">
-        <div class="d-flex container">
+        <div class="d-flex container wow animate__animated animate__fadeInLeft">
           <img
             class="phone"
             src="../assets/íconos SVG/phone.svg"
@@ -44,7 +45,7 @@
             >
 
             <img
-              class="logo"
+              class="logo wow animate__animated animate__fadeInLeft"
               src="../assets/Generales//micasa-identidad.svg"
               alt="logo"
             />
@@ -71,7 +72,7 @@
             id="myNavbar"
           >
             <ul
-              class="navbar-nav ml-auto flex-nowrap poppins fs-19 text-primary color-secondary"
+              class="navbar-nav ml-auto flex-nowrap poppins fs-19 text-primary color-secondary wow animate__animated animate__fadeInRight"
             >
               <li class="nav-item">
                 <a href="../index.html" class="nav-link m-2 menu-item"
@@ -130,7 +131,7 @@
       class="banner-locacion d-flex justify-content-center align-items-center"
     >
       <div class="text-center text-white text-shadow poppins">
-        <p class="fs-52">CANCÚN</p>
+        <p class="fs-52 wow animate__animated animate__fadeInDown">CANCÚN</p>
       </div>
     </div>
 
@@ -138,7 +139,7 @@
     <div class="mt-5 text-white">
       <div class="container">
         <div class="row text-center poppins">
-          <div class="col-md-6">
+          <div class="col-md-6 wow animate__animated animate__slideInLeft">
             <div class="swiper-container">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
@@ -260,7 +261,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 wow animate__animated animate__slideInRight">
             <div class="swiper-container">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
@@ -343,7 +344,7 @@
         </div>
 
         <div class="row text-center poppins">
-          <div class="col-md-6">
+          <div class="col-md-6 wow animate__animated animate__slideInLeft">
             <div class="swiper-container">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
@@ -423,7 +424,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 wow animate__animated animate__slideInRight">
             <div class="swiper-container">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
@@ -491,7 +492,7 @@
         </div>
 
         <div class="row text-center poppins">
-          <div class="col-md-6">
+          <div class="col-md-6 wow animate__animated animate__slideInLeft">
             <div class="swiper-container">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
@@ -599,7 +600,9 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6"></div>
+          <div
+            class="col-md-6 wow animate__animated animate__slideInRight"
+          ></div>
         </div>
       </div>
     </div>
@@ -609,13 +612,15 @@
       <div class="row">
         <div class="col-md-6">
           <img
-            class="contacto-img"
+            class="contacto-img wow animate__animated animate__slideInLeft"
             src="../assets/Generales/imagen-formulario.png"
             alt="Contacto"
           />
         </div>
 
-        <div class="col-md-6 poppins">
+        <div
+          class="col-md-6 poppins wow animate__animated animate__slideInRight"
+        >
           <p class="fs-33 text-center color-titulo">CONTACTO</p>
           <p class="fs-16 color-texto text-center">
             5 años de experiencia nos respaldan. Déjanos saber tus dudas o
@@ -671,12 +676,14 @@
       <div class="bg-primary py-3">
         <div class="text-center">
           <img
-            class="footer-flor py-2"
+            class="footer-flor py-2 wow animate__animated animate__zoomIn"
             src="../assets/Generales/flor-micasa.svg"
             alt="flor"
           />
         </div>
-        <div class="row container text-white poppins text-center mx-auto">
+        <div
+          class="row container text-white poppins text-center mx-auto wow animate__animated animate__slideInLeft"
+        >
           <p class="col-md-2 fs-19">
             <a class="text-white" href="../index.html">INICIO </a>
           </p>
@@ -698,7 +705,7 @@
             <a class="text-white" href="#">POLÍTICAS </a>
           </p>
         </div>
-        <div class="text-center">
+        <div class="text-center wow animate__animated animate__slideInUp">
           <img
             class="footer-redes"
             src="../assets/íconos SVG/facebook-logo-button.svg"
@@ -716,8 +723,10 @@
         <div
           class="container d-flex justify-content-between poppins text-white"
         >
-          <p class="py-2 mt-3">2020, MI CASA ES TU CASA, ALL RIGHT RESERVED.</p>
-          <div class="py-2 mt-3">
+          <p class="py-2 mt-3 wow animate__animated animate__slideInLeft">
+            2020, MI CASA ES TU CASA, ALL RIGHT RESERVED.
+          </p>
+          <div class="py-2 mt-3 wow animate__animated animate__slideInRight">
             <img
               class="footer-img"
               src="../assets/Generales/airbnb.png"
@@ -751,5 +760,9 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <script src="../wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
