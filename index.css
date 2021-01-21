@@ -113,6 +113,16 @@ body {
   cursor: pointer;
 }
 
+a {
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
 @media (max-width: 991px) {
   .none {
     display: none;
