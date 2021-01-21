@@ -128,6 +128,14 @@ a:hover {
   transform: scale(1.1);
 }
 
+.scale {
+  transition: 0.3s;
+}
+.scale:hover {
+  transition: 0.3s;
+  transform: scale(1.075);
+}
+
 @media (max-width: 991px) {
   .none {
     display: none;
