@@ -4,6 +4,7 @@ html,
 body {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 .bg-primary {
