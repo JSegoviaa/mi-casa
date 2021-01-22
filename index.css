@@ -464,6 +464,10 @@ a:hover {
     no-repeat;
   height: 600px;
 }
+.banner-pdc {
+  background: url('./assets/banner-pdc.jpg') center center/cover no-repeat;
+  height: 600px;
+}
 
 .swiper-img {
   width: 100%;
@@ -475,6 +479,11 @@ a:hover {
   height: 700px;
 }
 
+.banner-mi-casa-pdc {
+  background: url('./assets/banners/MCETC-pdc-banner.jpg') no-repeat center
+    center/cover;
+  height: 700px;
+}
 .swiper-iconos {
   width: 15px;
 }
@@ -486,7 +495,7 @@ a:hover {
 }
 
 .casa-santosha-interior {
-  background: url('./assets/banner-isla-mujeres.jpg') center center/cover;
+  background: url('./assets//casa-santosha-interior.jpg') center center/cover;
   height: 600px;
 }
 .map {
@@ -519,8 +528,12 @@ a:hover {
 .swiper-button-prev {
   color: #636363;
   background-color: white;
+  width: 45px;
+  height: 55px;
 }
 .swiper-button-next {
   color: #636363;
   background-color: white;
+  width: 50px;
+  height: 60px;
 }
