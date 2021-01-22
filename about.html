@@ -39,7 +39,6 @@
       </div>
 
       <!-- Barra de navegación -->
-
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <div class="d-flex flex-grow-1">
@@ -49,7 +48,7 @@
 
             <img
               class="logo wow animate__animated animate__fadeInLeft"
-              src="./assets//Generales//micasa-identidad.svg"
+              src="./assets/Generales//micasa-identidad.svg"
               alt="logo"
             />
 
@@ -75,7 +74,7 @@
             id="myNavbar"
           >
             <ul
-              class="navbar-nav ml-auto flex-nowrap poppins fs-19 text-primary color-secondary wow animate__animated animate__fadeInRight"
+              class="wow animate__animated animate__fadeInRight navbar-nav ml-auto flex-nowrap poppins fs-19 text-primary color-secondary"
             >
               <li class="nav-item">
                 <a href="./index.html" class="nav-link m-2 menu-item">INICIO</a>
@@ -85,10 +84,32 @@
                   •
                 </h4>
               </li>
-              <li class="nav-item">
-                <a href="./index.html#locaciones" class="nav-link m-2 menu-item"
-                  >LOCACIONES</a
+              <li class="nav-item dropdown poppins mt-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
                 >
+                  LOCACIONES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="./locaciones/cancun.html"
+                    >CANCÚN</a
+                  >
+                  <a class="dropdown-item" href="./locaciones/isla-mujeres.html"
+                    >ISLA MUJERES</a
+                  >
+
+                  <a
+                    class="dropdown-item"
+                    href="./locaciones/playa-del-carmen.html"
+                    >PLAYA DEL CARMEN</a
+                  >
+                </div>
               </li>
               <li class="nav-item">
                 <h4 href="#" class="nav-link m-2 menu-item color-primary none">
@@ -110,6 +131,7 @@
                   >SERVICIOS</a
                 >
               </li>
+
               <li class="nav-item">
                 <h4 href="#" class="nav-link m-2 menu-item color-primary none">
                   •
