@@ -484,6 +484,7 @@ a:hover {
     center/cover;
   height: 700px;
 }
+
 .swiper-iconos {
   width: 15px;
 }
@@ -495,7 +496,13 @@ a:hover {
 }
 
 .casa-santosha-interior {
-  background: url('./assets//casa-santosha-interior.jpg') center center/cover;
+  background: url('./assets/casa-santosha-interior.jpg') center center/cover;
+  height: 600px;
+}
+
+.departamento-mexicano-interior {
+  background: url('./assets/banners/departament-mexicano-interior-banner.jpg')
+    center center/cover;
   height: 600px;
 }
 .map {
