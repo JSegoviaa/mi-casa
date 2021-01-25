@@ -705,6 +705,8 @@ a:hover {
   height: 55px;
 }
 
-input {
-  background: rebeccapurple;
+input,
+textarea {
+  background: #eaeaea !important;
+  border-radius: 0 !important;
 }
