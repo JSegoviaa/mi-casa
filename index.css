@@ -704,3 +704,7 @@ a:hover {
   width: 45px;
   height: 55px;
 }
+
+input {
+  background: rebeccapurple;
+}
