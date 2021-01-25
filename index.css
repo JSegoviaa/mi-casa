@@ -177,6 +177,17 @@ a:hover {
   margin-right: -70px;
   margin-top: -88px;
 }
+.isotopo-staff {
+  width: 150px;
+  margin-top: -90px;
+  margin-right: -40px;
+}
+.isotopo-stafff {
+  width: 200px;
+  margin-top: -170px;
+  margin-right: -70px;
+}
+
 .contenedor {
   width: 600px;
 }
@@ -384,62 +395,210 @@ a:hover {
 }
 
 .daniel {
+  background: url('./assets/About/daniel.jpg') center center/cover;
+  width: 260px;
+  height: 260px;
+}
+.daniel-2 {
   background: url('./assets/About/daniel-2.jpg') center center/cover;
-  width: 100%;
-  height: 255px;
+  width: 260px;
+  height: 260px;
+}
+.daniel:hover {
+  background: url('./assets/About/daniel-2.jpg') center center/cover;
+  width: 260px;
+  height: 260px;
 }
 
 .renata {
+  background: url('./assets/About/renata.jpg') center center/cover;
+  width: 260px;
+  height: 260px;
+}
+.renata-2 {
   background: url('./assets/About/renata-2.jpg') center center/cover;
-  width: 100%;
+  width: 260px;
+  height: 260px;
+}
+.renata:hover {
+  background: url('./assets/About/renata-2.jpg') center center/cover;
+  width: 260px;
+  height: 260px;
 }
 .humberto {
+  background: url('./assets/About/foto-4.jpg') center center/cover;
+  width: 100%;
+}
+.humberto-2 {
+  background: url('./assets/About/foto-4-2.jpg') center center/cover;
+  width: 100%;
+}
+.humberto:hover {
   background: url('./assets/About/foto-4-2.jpg') center center/cover;
   width: 100%;
 }
 .erving {
-  background: url('./assets/About/daniel-2.jpg') center center/cover;
-  width: 100%;
+  background: url('./assets/About/erving.jpg') center center/cover;
+  width: 260px;
+  height: 260px;
+}
+.erving-2 {
+  background: url('./assets/About/erving-2.jpg') center center/cover;
+  width: 260px;
+  height: 260px;
+}
+.erving:hover {
+  background: url('./assets/About/erving-2.jpg') center center/cover;
+  width: 260px;
+  height: 260px;
+}
+.add {
+  width: 50px;
 }
 
 @media (max-width: 1024px) {
   .daniel {
     height: 210px;
+    width: 210px;
+  }
+  .daniel-2 {
+    height: 210px;
+    width: 210px;
+  }
+  .renata {
+    height: 210px;
+    width: 210px;
+  }
+  .renata-2 {
+    height: 210px;
+    width: 210px;
+  }
+  .humberto {
+    height: 210px;
+    width: 210px;
+  }
+  .humberto-2 {
+    height: 210px;
+    width: 210px;
+  }
+  .erving {
+    height: 210px;
+    width: 210px;
+  }
+  .erving-2 {
+    height: 210px;
+    width: 210px;
   }
 }
 
 @media (max-width: 991px) {
   .daniel {
     height: 150px;
+    width: 150px;
+  }
+  .renata {
+    height: 150px;
+    width: 150px;
+  }
+  .erving {
+    height: 150px;
+    width: 150px;
+  }
+  .humberto {
+    height: 150px;
+    width: 150px;
+  }
+  .daniel-2 {
+    height: 150px;
+    width: 150px;
+    font-size: 16px;
+  }
+  .renata-2 {
+    height: 150px;
+    width: 150px;
+    font-size: 16px;
+  }
+  .erving-2 {
+    height: 150px;
+    width: 150px;
+    font-size: 16px;
+  }
+  .humberto-2 {
+    height: 150px;
+    width: 150px;
+    font-size: 16px;
+  }
+  .add {
+    width: 30px;
   }
 }
 
 @media (max-width: 767px) {
   .daniel {
     height: 495px;
+    width: 495px;
   }
   .renata {
     height: 495px;
+    width: 495px;
   }
   .humberto {
     height: 495px;
+    width: 495px;
   }
   .erving {
     height: 495px;
+    width: 495px;
+  }
+  .daniel-2 {
+    height: 495px;
+    width: 495px;
+  }
+  .renata-2 {
+    height: 495px;
+    width: 495px;
+  }
+  .humberto-2 {
+    height: 495px;
+    width: 495px;
+  }
+  .erving-2 {
+    height: 495px;
+    width: 495px;
   }
 }
 @media (max-width: 375px) {
   .daniel {
     height: 345px;
+    width: 345px;
   }
   .renata {
     height: 345px;
+    width: 345px;
   }
   .humberto {
     height: 345px;
+    width: 345px;
   }
   .erving {
     height: 345px;
+    width: 345px;
+  }
+  .daniel-2 {
+    height: 345px;
+    width: 345px;
+  }
+  .renata-2 {
+    height: 345px;
+    width: 345px;
+  }
+  .humberto-2 {
+    height: 345px;
+    width: 345px;
+  }
+  .erving-2 {
+    height: 345px;
+    width: 345px;
   }
 }
 
