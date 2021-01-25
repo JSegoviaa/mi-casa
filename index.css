@@ -709,4 +709,12 @@ input,
 textarea {
   background: #eaeaea !important;
   border-radius: 0 !important;
+  color: #d46858 !important;
+  font-size: 21px !important;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+}
+
+button {
+  border-radius: 0 !important;
 }
